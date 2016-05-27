@@ -13,7 +13,6 @@
  the getWord function takes a FILE pointer and returns you a string which was
  the next word in the in the file. words are defined (by this function) to be
  characters or numbers seperated by periods, spaces, or newlines.
- 
  when there are no more words in the input file this function will return NULL.
  
  this function will malloc some memory for the char* it returns. it is your job

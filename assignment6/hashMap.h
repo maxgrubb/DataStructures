@@ -1,6 +1,5 @@
 # ifndef HashMap
 # define HashMap
-
 # define KeyType char*
 # define ValueType int
 

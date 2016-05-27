@@ -8,7 +8,7 @@ prog: hashMap.o main.c
 
 spellcheck: hashMap.o spellcheck.c
 	gcc -Wall -std=c99 -pedantic-errors -o spell hashMap.o  spellcheck.c
-	
+
 clean:
 	rm hashMap.o	
 
